@@ -1,0 +1,111 @@
+* {
+	color: #111111; ;
+}
+
+/*background color possibilities*/
+.bg-aquateal {
+	background-color: #3D9970;
+
+}
+
+.bg-grey {
+	background-color: #dddddd;
+}
+
+.bg-yellow {
+	background-color: #FFDC00;
+}
+
+.bg-neoncoral {
+	background-color: #FF4136;
+}
+
+.bg-green {
+	background-color: #2ECC40;
+}
+
+.bg-orange {
+	background-color: #FF851B;
+}
+
+.bg-dkblue {
+	background-color: #001F3F;
+}
+
+.bg-purp {
+	background-color: #B10DC9;
+}
+
+.bg-white {
+	background-color: #ffffff;
+}
+
+
+/*font color possibilities*/
+.ddd {
+	color: #dddddd;
+
+}
+
+.fff {
+	color: #ffffff;
+}
+
+.aquateal {
+	color: #3D9970;
+}
+
+.yellow {
+	color: #FFDC00;
+}
+
+.neoncoral {
+	color: #FF4136;
+}
+
+.green {
+	color: #2ECC40;
+}
+
+.orange {
+	color: #FF851B;
+}
+
+.dkblue {
+	color: #001F3F;
+}
+
+.purp {
+	color: #B10DC9;
+}
+
+
+td:hover {
+	background-color: #dddddd;
+}
+
+
+
+a:hover {
+	text-decoration: none;
+}
+.fancy-text {
+	color: ;
+}
+
+.dialogue {
+	font-family: 'Alegreya', serif;
+}
+
+
+
+#hide-until-click {
+	visibility: hidden;
+}
+
+/*php specific decoration*/
+
+.current {
+	text-decoration: underline;
+	text-decoration-color: #111111;
+}
