@@ -1,7 +1,8 @@
 <?php
-date_default_timezone_set('UTC');
+date_default_timezone_set('America/Detroit');
 // "G" means hour
 $time = date("G");
+// echo $time;
 
 // random background color
 

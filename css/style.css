@@ -109,3 +109,18 @@ a:hover {
 	text-decoration: underline;
 	text-decoration-color: #111111;
 }
+
+/*______Resume.php specific style______-*/
+
+
+#hiddenList {
+	display: none;
+}
+
+#hiddenList2 {
+	display: block;
+}
+
+#hiddenList3 {
+	display: block;
+}

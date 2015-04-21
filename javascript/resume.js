@@ -1,49 +1,127 @@
 function getInfo1() {
 		var extraContent = document.getElementById("extraContent");
-
-		if (extraContent.innerHTML=="") {
-			extraContent.innerHTML="The Conceptual Age, a term coined by Daniel Pink in his book, A Whole New Mind, describes the need for more divergent, conceptual thinkers as menial and computational work increasingly becomes the job of both and either computers and cheaper, foreign workers.";	
+		if (extraContent.innerHTML=="The Conceptual Age, a term coined by Daniel Pink in his book, A Whole New Mind, describes the need for more divergent, conceptual thinkers as menial and computational work increasingly becomes the job of both and either computers and cheaper, foreign workers.") {
+			extraContent.innerHTML="";
 		} else {
-			if (extraContent.innerHTML=="The body of knowledge Evan Jon is currently pursuing is multi-disciplinary by nature. It draws heavily from Psychology, Information Science, Communication Studies, and Creative Writing. Couple this with a background in the natural sciences and his experience with entrepreneurship, and you have a wild hodge podge.") {
-				extraContent.innerHTML="The Conceptual Age, a term coined by Daniel Pink in his book, A Whole New Mind, describes the need for more divergent, conceptual thinkers as menial and computational work increasingly becomes the job of both and either computers and cheaper, foreign workers.";
-		} else { 
-			if (extraContent.innerHTML=="The basic premise is to explore how the human psychology is reacting to the Internet. Throughout the 20th century, radio and TV were the dominant information resources. An individual had little real agency about what informaiton they digested. Figure that someone had access to a limited number of channels/stations and a fairly consistent, television-watching routine, s/he is affected by a few particular voices. <br><br>In 2015, we have the choice between thousands of sources. How do people decide which media to follow? Which articles to read? Which headlines to trust? Which peers are credible? These are the types of questions I'm interested in answers. <a href='decision.opinion.php'><span class=\"dialogue Tetra3\">Read more</span></a>") {
-				extraContent.innerHTML="The Conceptual Age, a term coined by Daniel Pink in his book, A Whole New Mind, describes the need for more divergent, conceptual thinkers as menial and computational work increasingly becomes the job of both and either computers and cheaper, foreign workers.";
-			} else {
-				extraContent.innerHTML="";
-		}}}}
+				extraContent.innerHTML="The Conceptual Age, a term coined by Daniel Pink in his book, A Whole New Mind, describes the need for more divergent, conceptual thinkers as menial and computational work increasingly becomes the job of both and either computers and cheaper, foreign workers.";	
+		} return false;
+
+	}
 
 function getInfo2() {
-var extraContent = document.getElementById("extraContent");
+		var extraContent = document.getElementById("extraContent");
+		if (extraContent.innerHTML=="In 2015, we have the choice between thousands of sources. How do people decide which media to follow? Which articles to read? Which headlines to trust? Which peers are credible? These are the types of questions I'm interested in answers.") {
+			extraContent.innerHTML="";
+		} else {
+				extraContent.innerHTML="In 2015, we have the choice between thousands of sources. How do people decide which media to follow? Which articles to read? Which headlines to trust? Which peers are credible? These are the types of questions I'm interested in answers.";	
+		} return false;
 
-if (extraContent.innerHTML=="") {
-	extraContent.innerHTML="The body of knowledge Evan Jon is currently pursuing is multi-disciplinary by nature. It draws heavily from Psychology, Information Science, Communication Studies, and Creative Writing. Couple this with a background in the natural sciences and his experience with entrepreneurship, and you have a wild hodge podge.";	
-} else {
-	if (extraContent.innerHTML=="The Conceptual Age, a term coined by Daniel Pink in his book, A Whole New Mind, describes the need for more divergent, conceptual thinkers as menial and computational work increasingly becomes the job of both and either computers and cheaper, foreign workers.") {
-		extraContent.innerHTML="The body of knowledge Evan Jon is currently pursuing is multi-disciplinary by nature. It draws heavily from Psychology, Information Science, Communication Studies, and Creative Writing. Couple this with a background in the natural sciences and his experience with entrepreneurship, and you have a wild hodge podge.";
-} else { 
-	if (extraContent.innerHTML=="The basic premise is to explore how the human psychology is reacting to the Internet. Throughout the 20th century, radio and TV were the dominant information resources. An individual had little real agency about what informaiton they digested. Figure that someone had access to a limited number of channels/stations and a fairly consistent, television-watching routine, s/he is affected by a few particular voices. <br><br>In 2015, we have the choice between thousands of sources. How do people decide which media to follow? Which articles to read? Which headlines to trust? Which peers are credible? These are the types of questions I'm interested in answers. <a href='decision.opinion.php'><span class=\"dialogue Tetra3\">Read more</span></a>") {
-		extraContent.innerHTML="The body of knowledge Evan Jon is currently pursuing is multi-disciplinary by nature. It draws heavily from Psychology, Information Science, Communication Studies, and Creative Writing. Couple this with a background in the natural sciences and his experience with entrepreneurship, and you have a wild hodge podge.";
-	} else {
-		extraContent.innerHTML="";
-}}}}
+	}
 
+
+
+// ______curriculum list________
+function hideList() {
+    var hiddenList = document.getElementById("hiddenList");
+    var classDescript = document.getElementById("extraContent2");
+    var extralist = document.getElementById("moreContent");
+    if (hiddenList.style.display == "block") {
+        hiddenList.style.display = "none";
+        classDescript.innerHTML="";
+        extralist.innerHTML="";
+    } else {
+        hiddenList.style.display = "block";
+    } return false;
+}
 
 function getInfo3() {
-var extraContent = document.getElementById("extraContent");
+		var extraContent = document.getElementById("extraContent2");
+		var moreContent = document.getElementById("moreContent");
+		if (extraContent.innerHTML=="This class immerses small teams of students in semester needs assessment and usability evaluation of a product. I was project manager of my team, and we investigated the market viability of mental health tech startup.") {
+			extraContent.innerHTML="";
+			moreContent.innerHTML="";
+		} else {
+			extraContent.innerHTML="This class immerses small teams of students in semester needs assessment and usability evaluation of a product. I was project manager of my team, and we investigated the market viability of mental health tech startup.";	
+			moreContent.innerHTML="<li>Interaction Mapping</li><li>Heuristic Evaluation</li><li>User Personas & Scenerios</li><li>Competitive Analysis</li><li>Market Assessment Survey</li>";
 
-if (extraContent.innerHTML=="") {
-	extraContent.innerHTML="The basic premise is to explore how the human psychology is reacting to the Internet. Throughout the 20th century, radio and TV were the dominant information resources. An individual had little real agency about what informaiton they digested. Figure that someone had access to a limited number of channels/stations and a fairly consistent, television-watching routine, s/he is affected by a few particular voices. <br><br>In 2015, we have the choice between thousands of sources. How do people decide which media to follow? Which articles to read? Which headlines to trust? Which peers are credible? These are the types of questions I'm interested in answers. <a href='decision.opinion.php'><span class=\"dialogue Tetra3\">Read more</span></a>";	
-} else {
-	if (extraContent.innerHTML=="The Conceptual Age, a term coined by Daniel Pink in his book, A Whole New Mind, describes the need for more divergent, conceptual thinkers as menial and computational work increasingly becomes the job of both and either computers and cheaper, foreign workers.") {
-		extraContent.innerHTML="The basic premise is to explore how the human psychology is reacting to the Internet. Throughout the 20th century, radio and TV were the dominant information resources. An individual had little real agency about what informaiton they digested. Figure that someone had access to a limited number of channels/stations and a fairly consistent, television-watching routine, s/he is affected by a few particular voices. <br><br>In 2015, we have the choice between thousands of sources. How do people decide which media to follow? Which articles to read? Which headlines to trust? Which peers are credible? These are the types of questions I'm interested in answers. <a href='decision.opinion.php'><span class=\"dialogue Tetra3\">Read more</span></a>";
-} else { 
-	if (extraContent.innerHTML=="The body of knowledge Evan Jon is currently pursuing is multi-disciplinary by nature. It draws heavily from Psychology, Information Science, Communication Studies, and Creative Writing. Couple this with a background in the natural sciences and his experience with entrepreneurship, and you have a wild hodge podge.") {
-		extraContent.innerHTML="The basic premise is to explore how the human psychology is reacting to the Internet. Throughout the 20th century, radio and TV were the dominant information resources. An individual had little real agency about what informaiton they digested. Figure that someone had access to a limited number of channels/stations and a fairly consistent, television-watching routine, s/he is affected by a few particular voices. <br><br>In 2015, we have the choice between thousands of sources. How do people decide which media to follow? Which articles to read? Which headlines to trust? Which peers are credible? These are the types of questions I'm interested in answers. <a href='decision.opinion.php'><span class=\"dialogue Tetra3\">Read more</span></a>";
-	} else {
+		} return false;
+
+	}
+
+function removeList() {
+	var moreContent = document.getElementById("moreContent");
+	moreContent.innerHTML="";
+	return false;
+
+}
+
+function getInfo4() {
+		var extraContent = document.getElementById("extraContent2");
+		if (extraContent.innerHTML=="This class is designed to catch students up to speed on the communication explosion computers have detonated. Topics covered technological determinism, social construction, the Networked Perspective, media habit, Internet news, E-communities, social media sites.<br>You can read my term paper here.") {
+			extraContent.innerHTML="";
+		} else {
+				extraContent.innerHTML="This class is designed to catch students up to speed on the communication explosion computers have detonated. Topics covered technological determinism, social construction, the Networked Perspective, media habit, Internet news, E-communities, social media sites.<br>You can read my term paper here.";	
+		} return false;
+
+	}
+
+function getInfo5() {
+		var extraContent = document.getElementById("extraContent2");
+		if (extraContent.innerHTML=="This class explores the 10 Cardinal Issues of the decision-making process from marketing, and economics, and ethical perspectives. The professor, Dr. Frank Yates, one of my two academic mentors, is an expert in the field whose research formed the backbone of this class.") {
+			extraContent.innerHTML="";
+		} else {
+				extraContent.innerHTML="This class explores the 10 Cardinal Issues of the decision-making process from marketing, and economics, and ethical perspectives. The professor, Dr. Frank Yates, one of my two academic mentors, is an expert in the field whose research formed the backbone of this class.";	
+		} return false;
+
+	}
+
+function getInfo6() {
+	var extraContent = document.getElementById("extraContent2");
+	if (extraContent.innerHTML=="This class examines the nuances of the independent and interdependent cultural influences and outcomes with specific emphasis on the neurobiology, the role of religion, the role of social class, biculturation, and social, genetic, and biological consequences. Prof. Kitayama is an expert in the field.") {
 		extraContent.innerHTML="";
-}}}}
+	} else {
+			extraContent.innerHTML="This class examines the nuances of the independent and interdependent cultural influences and outcomes with specific emphasis on the neurobiology, the role of religion, the role of social class, biculturation, and social, genetic, and biological consequences. Prof. Kitayama is an expert in the field.";	
+	} return false;
 
-			
+}
 
-							
+function getInfo7() {
+		var extraContent = document.getElementById("extraContent2");
+		if (extraContent.innerHTML=="A blank piece of paper is a canvas to explore the nuances of human expression, reaction, decision-making. I use this canvas to describe my observations about how human beings are. Language is my forte, thus writing is my creative stimulation.") {
+			extraContent.innerHTML="";
+		} else {
+				extraContent.innerHTML="A blank piece of paper is a canvas to explore the nuances of human expression, reaction, decision-making. I use this canvas to describe my observations about how human beings are. Language is my forte, thus writing is my creative stimulation.";	
+		} return false;
+
+	}
+
+
+// _________Experience Section_______
+
+function hideList2() {
+    var hiddenList2 = document.getElementById("hiddenList2");
+    // var classDescript = document.getElementById("extraContent2");
+    // var extralist = document.getElementById("moreContent");
+    if (hiddenList2.style.display == "block") {
+        hiddenList2.style.display = "none";
+        // classDescript.innerHTML="";
+        // extralist.innerHTML="";
+    } else {
+        hiddenList2.style.display = "block";
+    } return false;
+}
+
+
+function hideList3() {
+    var hiddenList3 = document.getElementById("hiddenList3");
+    // var classDescript = document.getElementById("extraContent2");
+    // var extralist = document.getElementById("moreContent");
+    if (hiddenList3.style.display == "block") {
+        hiddenList3.style.display = "none";
+        // classDescript.innerHTML="";
+        // extralist.innerHTML="";
+    } else {
+        hiddenList3.style.display = "block";
+    } return false;
+}
+
