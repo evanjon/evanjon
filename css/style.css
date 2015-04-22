@@ -12,10 +12,6 @@
 	background-color: #dddddd;
 }
 
-.bg-yellow {
-	background-color: #FFDC00;
-}
-
 .bg-neoncoral {
 	background-color: #FF4136;
 }
@@ -26,10 +22,6 @@
 
 .bg-orange {
 	background-color: #FF851B;
-}
-
-.bg-dkblue {
-	background-color: #001F3F;
 }
 
 .bg-purp {
@@ -79,6 +71,10 @@
 	color: #B10DC9;
 }
 
+.dk-grey {
+	color: #111111;
+}
+
 
 td:hover {
 	background-color: #dddddd;
@@ -123,4 +119,16 @@ a:hover {
 
 #hiddenList3 {
 	display: block;
+}
+
+#hiddenDiv1 {
+	visibility: hidden;
+}
+
+#hiddenDiv2 {
+	visibility: hidden;
+}
+
+#hiddenDiv3 {
+	visibility: hidden;
 }

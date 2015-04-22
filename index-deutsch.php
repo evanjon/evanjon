@@ -2,67 +2,218 @@
 	<html lang="de">
 		<head>
 			<meta charset="UTF-8">
-			<title>EvanJonGennrich-Deutsch</title>
+			<title>EvanJonGennrich</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link href="style/basscss.min.css" type="text/css" rel="stylesheet">
-			<link type="text/css" rel="stylesheet" href="style/style.css">
+			<link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.2.2/basscss.min.css" rel="stylesheet">
+			<link type="text/css" rel="stylesheet" href="css/basscss.min.css">
+			<link type="text/css" rel="stylesheet" href="css/style.css">
 
-			<script type="text/javascript">
-				function Greeting() {
-					    if (new Date().getHours() < 12) {
-					        document.getElementsByTagName("h1")[0].innerphp = "Guten Morgen. Ich heiße Evan Jon";
-					    } else {
-					    	if (new Date().getHours() < 19) {
-					    		document.getElementsByTagName("h1")[0].innerphp = "Guten Tag. Ich heiße Evan Jon";
-					    	} else {
-					    		document.getElementsByTagName("h1")[0].innerphp = "Guten Abend. Ich heiße Evan Jon."
-					    	}}}
-			</script>
-
+			
 			<?php
   			$fName = basename(__FILE__);
-  			?>			
+
+  			?>
 
 		</head>
 
-		<body onload="Greeting()">	
-			<section class="right m2">
-				<p><a href="index.php" class="Tetra3">English</a>
-			</section>		
+		<body>	
+			
 
 			<?php
-			include("templates/header-deutsch.php");
-			?>
+			include("templates/header.php");
+
+			?>	
+
+			
+	
+			
+			
+<!-- ______PORTFOLIO______ -->
+			<section class="clearfix bg-grey">
+
+				<div class="sm-col-12 md-col-10 lg-col-8 mx-auto center">
+
+					<h2 class=<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral center\">";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange center px3\">";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow center px3\">";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal center px3\">";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green center px3\">";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue center px3\">";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp center px3\">";
+								}}}}}}}
+							?>Leider habe ich keine gute Geschichte geschrieben, die auf Deutsch sind, aber wenn Sie Englisch wissen, bitte lesen Sie etwas.</h2>
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
+						<div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue \"";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp \"";
+								}}}}}}}
+							?>>Snowbirds of Huron</h3>
+						</div>
+					</div>
 
 
-			<section class="container">
-				<div class="clearfix">
-
-					<h2 class="center Tetra2 h3 mb3">In der 18 Monaten, die ich Deutsch gelernt habe, habe ich noch nicht auf Deutsch kreative Geschichten oder Gedichten geschrieben. Wenn Sie Englisch lesen können, lesen Sie bitte meine etwas von meinem Bestand.</h2>
-					<div class="col-8 mx-auto">
-						<ul class="inline-block">
-							<li class="button box"><a href="snowbirds.php" class="Tetra3 dialogue">Snowbirds on Huron</a></li>
-							<li class="button box"><a href="ekridaat.php" class="Tetra3 dialogue">Ekridaat</a></li>
-							<li class="button box"><a href="onespidercrack.php" class="Tetra3 dialogue">One Spider-crack on the Stern</a></li>
-							<li class="button box"><a href="sylvette.php" class="Tetra3 dialogue">Sylvette</a></li>
-						</ul>
-						<!--<h2 class="center Tetra2 h3 mb3">Ich schreibe auch über Stoff, dafür ich mich interessiert bin:</h2>-->
-
-
-						<hr>
+					<div class="md-col md-col-6 lg-col lg-col-4 flex">
+						<div class="bg-white m2 py4 ">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue \"";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp \"";
+								}}}}}}}
+							?>>Ekridaat</h3>
+						</div>
 
 					</div>
-					
+
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
+						<div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue \"";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp \"";
+								}}}}}}}
+							?>>Spidercrack on the Stern</h3>
+						</div>
+					</div>
+
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex">
+						<div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue \"";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp \"";
+								}}}}}}}
+							?>>Sylvette</h3>
+						</div>
+
+					</div>
+
+
+
+
 				</div>
-				</section>
 
 
+			</section>
 
-					
-			<section class="container">
-				<div class="clearfix center">
-					<h2 class="">Bitte schicken Sie mir einen <a href="mailto:ejgennrich@gmail.com" class="Tetra3">Email</a></h2>
-					
+	<!-- ______Contact________		 -->
+			<section class="clearfix bg-grey py4 center">
+					<h3 class="fff">Bitte schicken Sie mir einen.<a class=
+					<?php
+					if ($bgColor == "bg-neoncoral") {
+						echo "\"neoncoral \"";
+						} else {
+							if ($bgColor == "bg-orange") {
+						echo "\"orange \"";
+						} else { 
+							if ($bgColor == "bg-yellow") {
+						echo "\"yellow \"";
+						} else { 
+							if ($bgColor == "bg-aquateal") {
+						echo "\"aquateal \"";
+						} else { 
+							if ($bgColor == "bg-green") {
+						echo "\"green \"";
+						} else { 
+							if ($bgColor == "bg-dkblue") {
+						echo "\"dkblue \"";
+					} else { 
+							if ($bgColor == "bg-purp") {
+						echo "\"purp \"";
+						}}}}}}}
+						?>href=\"mailto:ejgennrich@gmail.com\">Email</a></h2> 
+
+								
 				</div>
 			</section>
 
