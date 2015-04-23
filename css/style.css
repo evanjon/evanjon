@@ -24,9 +24,6 @@
 	background-color: #FF851B;
 }
 
-.bg-purp {
-	background-color: #B10DC9;
-}
 
 .bg-white {
 	background-color: #ffffff;
@@ -67,9 +64,6 @@
 	color: #001F3F;
 }
 
-.purp {
-	color: #B10DC9;
-}
 
 .dk-grey {
 	color: #111111;
@@ -125,10 +119,16 @@ a:hover {
 	visibility: hidden;
 }
 
+
+
 #hiddenDiv2 {
 	visibility: hidden;
 }
 
 #hiddenDiv3 {
+	visibility: hidden;
+}
+
+#hiddenDiv4 {
 	visibility: hidden;
 }

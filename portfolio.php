@@ -1,51 +1,173 @@
 <!DOCTYPE html>
-	<html lang="en">
+	<html lang="de">
 		<head>
 			<meta charset="UTF-8">
 			<title>EvanJonGennrich</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<!--<link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.2.2/basscss.min.css" rel="stylesheet">-->
-			<link type="text/css" href="style/basscss.min.css" rel="stylesheet">
-			<link type="text/css" rel="stylesheet" href="style/style.css">
-
+			<link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.2.2/basscss.min.css" rel="stylesheet">
+			<link type="text/css" rel="stylesheet" href="css/basscss.min.css">
+			<link type="text/css" rel="stylesheet" href="css/style.css">
 
 			
 			<?php
   			$fName = basename(__FILE__);
+
   			?>
 
 		</head>
 
-		<body onload="Greeting()">	
-			<section class="right m2">
-				<p><a href="index-deutsch.php" class="Tetra3">Deutsch</a>
-			</section>	
+		<body>	
+			
 
 			<?php
-			include("templates/header-writing.php");
+			include("templates/header.php");
+
 			?>	
-			<section class="container">
-				<div class="clearfix">
 
-					<div class="col-8 mx-auto">
-						<ul class="inline-block">
-							<li class="button box"><a href="snowbirds.php" class="Tetra3 dialogue">Snowbirds on Huron</a></li>
-							<li class="button box"><a href="ekridaat.php" class="Tetra3 dialogue">Ekridaat</a></li>
-							<li class="button box"><a href="onespidercrack.php" class="Tetra3 dialogue">One Spider-crack on the Stern</a></li>
-							<li class="button box"><a href="sylvette.php" class="Tetra3 dialogue">Sylvette</a></li>
-						</ul>
+			
+	
+			
+			
+<!-- ______PORTFOLIO______ -->
+			<section class="clearfix bg-grey">
 
-						<hr>
+				<div class="sm-col-12 md-col-10 lg-col-8 mx-auto center">
+
+					
+					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
+						<a href="snowbirds.php"><div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue \"";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp \"";
+								}}}}}}}
+							?>>Snowbirds of Huron</h3>
+						</div></a>
+					</div>
+
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex">
+						<a href="ekridaat.php"><div class="bg-white m2 py4 ">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue \"";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp \"";
+								}}}}}}}
+							?>>Ekridaat</h3>
+						</div></a>
 
 					</div>
-					
+
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
+						<a href="onespidercrack.php"><div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue \"";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp \"";
+								}}}}}}}
+							?>>Spidercrack on the Stern</h3>
+						</div><a href="onespidercrack.php">
+					</div>
+
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex">
+						<a href="sylvette.php"><div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "\"yellow \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "\"dkblue \"";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "\"purp \"";
+								}}}}}}}
+							?>>Sylvette</h3>
+						</div></a>
+
+					</div>
+
+
+
+
 				</div>
-				</section>
 
-				<?php
-				include("templates/footer.php");
-				?>			
 
+			</section>
+
+	
+
+			<?php
+			include("templates/footer.php");
+			?>	
 			
 		</body>
 	</html>

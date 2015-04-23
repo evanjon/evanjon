@@ -7,7 +7,7 @@
 			<link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.2.2/basscss.min.css" rel="stylesheet">
 			<link href="css//basscss.min.css" type="text/css" rel="stylesheet">
 			<link type="text/css" rel="stylesheet" href="css//style.css">
-			<script type="text/javascript" src="javascript/resume.js"></script>
+			<script type="text/javascript" src="javascript/resume-deutsch.js"></script>
 
 			<?php
   			$fName = basename(__FILE__);
@@ -110,117 +110,117 @@
 
 									<li><a href="#" onclick="return getInfo3()"<?php
 										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"block mb0 h4 neoncoral\">Needs Assessment and Usability Evaluation</a></li>";
+											echo "class=\"block mb0 h4 neoncoral\">Bedarfsanalyse und Nutzbarkeit Einschätzung</a></li>";
 											} else {
 												if ($bgColor == "bg-orange") {
-											echo "class=\"block mb0 h4 orange\">Needs Assessment and Usability Evaluation</a></li>";
+											echo "class=\"block mb0 h4 orange\">Bedarfsanalyse und Nutzbarkeit Einschätzung</a></li>";
 											} else { 
 												if ($bgColor == "bg-yellow") {
-											echo "class=\"block mb0 h4 yellow \">Needs Assessment and Usability Evaluation</a></li>";
+											echo "class=\"block mb0 h4 yellow \">Bedarfsanalyse und Nutzbarkeit Einschätzung</a></li>";
 											} else { 
 												if ($bgColor == "bg-aquateal") {
-											echo "class=\"block mb0 h4 aquateal\">Needs Assessment and Usability Evaluation</a></li>";
+											echo "class=\"block mb0 h4 aquateal\">Bedarfsanalyse und Nutzbarkeit Einschätzung</a></li>";
 											} else { 
 												if ($bgColor == "bg-green") {
-											echo "class=\"block mb0 h4 green \">Needs Assessment and Usability Evaluation</a></li>";
+											echo "class=\"block mb0 h4 green \">Bedarfsanalyse und Nutzbarkeit Einschätzung</a></li>";
 											} else { 
 												if ($bgColor == "bg-dkblue") {
-											echo "class=\"block mb0 h4 dkblue\">Needs Assessment and Usability Evaluation</a></li>";
+											echo "class=\"block mb0 h4 dkblue\">Bedarfsanalyse und Nutzbarkeit Einschätzung</a></li>";
 											} else { 
 												if ($bgColor == "bg-purp") {
-											echo "class=\"block mb0 h4 purp \">Needs Assessment and Usability Evaluation</a></li>";
+											echo "class=\"block mb0 h4 purp \">Bedarfsanalyse und Nutzbarkeit Einschätzung</a></li>";
 											}}}}}}}
 										?>
 									<li><a href="#" onclick="return getInfo4(), removeList()"<?php
 										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"block mb0 h4 neoncoral\">Computer Mediated Communication</a></li>";
+											echo "class=\"block mb0 h4 neoncoral\">Computer Vermillelt Kommunikation</a></li>";
 											} else {
 												if ($bgColor == "bg-orange") {
-											echo "class=\"block mb0 h4 orange\">Computer Mediated Communication</a></li>";
+											echo "class=\"block mb0 h4 orange\">Computer Vermillelt Kommunikation</a></li>";
 											} else { 
 												if ($bgColor == "bg-yellow") {
-											echo "class=\"block mb0 h4 yellow \">Computer Mediated Communication</a></li>";
+											echo "class=\"block mb0 h4 yellow \">Computer Vermillelt Kommunikation</a></li>";
 											} else { 
 												if ($bgColor == "bg-aquateal") {
-											echo "class=\"block mb0 h4 aquateal\">Computer Mediated Communication</a></li>";
+											echo "class=\"block mb0 h4 aquateal\">Computer Vermillelt Kommunikation</a></li>";
 											} else { 
 												if ($bgColor == "bg-green") {
-											echo "class=\"block mb0 h4 green \">Computer Mediated Communication</a></li>";
+											echo "class=\"block mb0 h4 green \">Computer Vermillelt Kommunikation</a></li>";
 											} else { 
 												if ($bgColor == "bg-dkblue") {
-											echo "class=\"block mb0 h4 dkblue\">Computer Mediated Communication</a></li>";
+											echo "class=\"block mb0 h4 dkblue\">Computer Vermillelt Kommunikation</a></li>";
 											} else { 
 												if ($bgColor == "bg-purp") {
-											echo "class=\"block mb0 h4 purp \">Computer Mediated Communication</a></li>";
+											echo "class=\"block mb0 h4 purp \">Computer Vermillelt Kommunikation</a></li>";
 											}}}}}}}
 										?>
 									<li><a href="#" onclick="return getInfo5(), removeList()"<?php
 										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"block mb0 h4 neoncoral\">Decision Processes</a></li>";
+											echo "class=\"block mb0 h4 neoncoral\">Enscheidungen Prozesse</a></li>";
 											} else {
 												if ($bgColor == "bg-orange") {
-											echo "class=\"block mb0 h4 orange\">Decision Processes</a></li>";
+											echo "class=\"block mb0 h4 orange\">Enscheidungen Prozesse</a></li>";
 											} else { 
 												if ($bgColor == "bg-yellow") {
-											echo "class=\"block mb0 h4 yellow \">Decision Processes</a></li>";
+											echo "class=\"block mb0 h4 yellow \">Enscheidungen Prozesse</a></li>";
 											} else { 
 												if ($bgColor == "bg-aquateal") {
-											echo "class=\"block mb0 h4 aquateal\">Decision Processes</a></li>";
+											echo "class=\"block mb0 h4 aquateal\">Enscheidungen Prozesse</a></li>";
 											} else { 
 												if ($bgColor == "bg-green") {
-											echo "class=\"block mb0 h4 green \">Decision Processes</a></li>";
+											echo "class=\"block mb0 h4 green \">Enscheidungen Prozesse</a></li>";
 											} else { 
 												if ($bgColor == "bg-dkblue") {
-											echo "class=\"block mb0 h4 dkblue\">Decision Processes</a></li>";
+											echo "class=\"block mb0 h4 dkblue\">Enscheidungen Prozesse</a></li>";
 											} else { 
 												if ($bgColor == "bg-purp") {
-											echo "class=\"block mb0 h4 purp \">Decision Processes</a></li>";
+											echo "class=\"block mb0 h4 purp \">Enscheidungen Prozesse</a></li>";
 											}}}}}}}
 										?>
 									<li><a href="#" onclick="return getInfo6(), removeList()"<?php
 										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"block mb0 h4 neoncoral\">Cultural Psychology</a></li>";
+											echo "class=\"block mb0 h4 neoncoral\">Kulturel Psychologie</a></li>";
 											} else {
 												if ($bgColor == "bg-orange") {
-											echo "class=\"block mb0 h4 orange\">Cultural Psychology</a></li>";
+											echo "class=\"block mb0 h4 orange\">Kulturel Psychologie</a></li>";
 											} else { 
 												if ($bgColor == "bg-yellow") {
-											echo "class=\"block mb0 h4 yellow \">Cultural Psychology</a></li>";
+											echo "class=\"block mb0 h4 yellow \">Kulturel Psychologie</a></li>";
 											} else { 
 												if ($bgColor == "bg-aquateal") {
-											echo "class=\"block mb0 h4 aquateal\">Cultural Psychology</a></li>";
+											echo "class=\"block mb0 h4 aquateal\">Kulturel Psychologie</a></li>";
 											} else { 
 												if ($bgColor == "bg-green") {
-											echo "class=\"block mb0 h4 green \">Cultural Psychology</a></li>";
+											echo "class=\"block mb0 h4 green \">Kulturel Psychologie</a></li>";
 											} else { 
 												if ($bgColor == "bg-dkblue") {
-											echo "class=\"block mb0 h4 dkblue\">Cultural Psychology</a></li>";
+											echo "class=\"block mb0 h4 dkblue\">Kulturel Psychologie</a></li>";
 											} else { 
 												if ($bgColor == "bg-purp") {
-											echo "class=\"block mb0 h4 purp \">Cultural Psychology</a></li>";
+											echo "class=\"block mb0 h4 purp \">Kulturel Psychologie</a></li>";
 											}}}}}}}
 										?>
 									<li><a href="#" onclick="return getInfo7(), removeList()"<?php
 										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"block mb0 h4 neoncoral\">Advanced Prose Fiction</a></li>";
+											echo "class=\"block mb0 h4 neoncoral\">Fortgeschritten Prosa Fiktion</a></li>";
 											} else {
 												if ($bgColor == "bg-orange") {
-											echo "class=\"block mb0 h4 orange\">Advanced Prose Fiction</a></li>";
+											echo "class=\"block mb0 h4 orange\">Fortgeschritten Prosa Fiktion</a></li>";
 											} else { 
 												if ($bgColor == "bg-yellow") {
-											echo "class=\"block mb0 h4 yellow \">Advanced Prose Fiction</a></li>";
+											echo "class=\"block mb0 h4 yellow \">Fortgeschritten Prosa Fiktion</a></li>";
 											} else { 
 												if ($bgColor == "bg-aquateal") {
-											echo "class=\"block mb0 h4 aquateal\">Advanced Prose Fiction</a></li>";
+											echo "class=\"block mb0 h4 aquateal\">Fortgeschritten Prosa Fiktion</a></li>";
 											} else { 
 												if ($bgColor == "bg-green") {
-											echo "class=\"block mb0 h4 green \">Advanced Prose Fiction</a></li>";
+											echo "class=\"block mb0 h4 green \">Fortgeschritten Prosa Fiktion</a></li>";
 											} else { 
 												if ($bgColor == "bg-dkblue") {
-											echo "class=\"block mb0 h4 dkblue\">Advanced Prose Fiction</a></li>";
+											echo "class=\"block mb0 h4 dkblue\">Fortgeschritten Prosa Fiktion</a></li>";
 											} else { 
 												if ($bgColor == "bg-purp") {
-											echo "class=\"block mb0 h4 purp \">Advanced Prose Fiction</a></li>";
+											echo "class=\"block mb0 h4 purp \">Fortgeschritten Prosa Fiktion</a></li>";
 											}}}}}}}
 										?>	
 								</ul>
@@ -280,162 +280,110 @@
 
 						<div class="sm-col-12 md-col md-col-5 lg-col lg-col-5 px2 m1 bg-white">
 
-							<h2 class="h5">Erfahrung</h2>
+							<h2 class="h5">Ergibnisse</h2>
 								
-							<a href="http://www.changeofmind.io"<?php
+							<h3><a href="http://www.changeofmind.io"<?php
 								if ($bgColor == "bg-neoncoral") {
-									echo "class=\"h1 neoncoral \">Change Of Mind</a>";
+									echo "class=\"h1 neoncoral \">Change Of Mind</a></h3>";
 									} else {
 										if ($bgColor == "bg-orange") {
-									echo "class=\"h1 orange\">Change Of Mind</a>";
+									echo "class=\"h1 orange\">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-yellow") {
-									echo "class=\"h1 yellow \">Change Of Mind</a>";
+									echo "class=\"h1 yellow \">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-aquateal") {
-									echo "class=\"h1 aquateal \">Change Of Mind</a>";
+									echo "class=\"h1 aquateal \">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-green") {
-									echo "class=\"h1 green \">Change Of Mind</a>";
+									echo "class=\"h1 green \">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-dkblue") {
-									echo "class=\"h1 dkblue \">Change Of Mind</a>";
+									echo "class=\"h1 dkblue \">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-purp") {
-									echo "class=\"h1 purp \">Change Of Mind</a>";
+									echo "class=\"h1 purp \">Change Of Mind</a></h3>";
 									}}}}}}}
 								?>
-								<p class="h4 px2 mb0">Co-founder, Project Manager, Chief Storyteller</p>
+								<p class="h4 px2 mt0">Mitbegründer, Project Leiter, Erzähler</p>
 
-								<a class="h3 mb0 block dk-grey" href="#" onclick="return hideList2()">Skills:</a>	
+								<a class="h3 mb0 block dk-grey" href="#" onclick="return hideList2()">Fähigkeiten:</a>	
 								<ul class="list-reset px2" id="hiddenList2">
 									<li ><a href="#" onclick="return getInfo8()"<?php
 										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"h4 mb0 neoncoral block\">Customer discovery</a></li>";
+											echo "class=\"h4 mb0 neoncoral block\">Kunden Entdeckung</a></li>";
 											} else {
 												if ($bgColor == "bg-orange") {
-											echo "class=\"h4 mb0 orange block\">Customer discovery</a></li>";
+											echo "class=\"h4 mb0 orange block\">Kunden Entdeckung</a></li>";
 											} else { 
 												if ($bgColor == "bg-yellow") {
-											echo "class=\"h4 mb0 yellow block\">Customer discovery</a></li>";
+											echo "class=\"h4 mb0 yellow block\">Kunden Entdeckung</a></li>";
 											} else { 
 												if ($bgColor == "bg-aquateal") {
-											echo "class=\"h4 mb0 aquateal block\">Customer discovery</a></li>";
+											echo "class=\"h4 mb0 aquateal block\">Kunden Entdeckung</a></li>";
 											} else { 
 												if ($bgColor == "bg-green") {
-											echo "class=\"h4 mb0 green block\">Customer discovery</a></li>";
+											echo "class=\"h4 mb0 green block\">Kunden Entdeckung</a></li>";
 											} else { 
 												if ($bgColor == "bg-dkblue") {
-											echo "class=\"h4 mb0 dkblue block\">Customer discovery</a></li>";
+											echo "class=\"h4 mb0 dkblue block\">Kunden Entdeckung</a></li>";
 											} else { 
 												if ($bgColor == "bg-purp") {
-											echo "class=\"h4 mb0 purp block\">Customer discovery</a></li>";
+											echo "class=\"h4 mb0 purp block\">Kunden Entdeckung</a></li>";
 											}}}}}}}
 										?>	
 
 									<li><a href="#" onclick="return getInfo9()"<?php
 										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"h4 mb0 neoncoral block\">Paper prototyping</a></li>";
+											echo "class=\"h4 mb0 neoncoral block\">Papier Prototyping</a></li>";
 											} else {
 												if ($bgColor == "bg-orange") {
-											echo "class=\"h4 mb0 orange block\">Paper prototyping</a></li>";
+											echo "class=\"h4 mb0 orange block\">Papier Prototyping</a></li>";
 											} else { 
 												if ($bgColor == "bg-yellow") {
-											echo "class=\"h4 mb0 yellow block\">Paper prototyping</a></li>";
+											echo "class=\"h4 mb0 yellow block\">Papier Prototyping</a></li>";
 											} else { 
 												if ($bgColor == "bg-aquateal") {
-											echo "class=\"h4 mb0 aquateal block\">Paper prototyping</a></li>";
+											echo "class=\"h4 mb0 aquateal block\">Papier Prototyping</a></li>";
 											} else { 
 												if ($bgColor == "bg-green") {
-											echo "class=\"h4 mb0 green block\">Paper prototyping</a></li>";
+											echo "class=\"h4 mb0 green block\">Papier Prototyping</a></li>";
 											} else { 
 												if ($bgColor == "bg-dkblue") {
-											echo "class=\"h4 mb0 dkblue block\">Paper prototyping</a></li>";
+											echo "class=\"h4 mb0 dkblue block\">Papier Prototyping</a></li>";
 											} else { 
 												if ($bgColor == "bg-purp") {
-											echo "class=\"h4 mb0 purp block\">Paper prototyping</a></li>";
+											echo "class=\"h4 mb0 purp block\">Papier Prototyping</a></li>";
 											}}}}}}}
 										?>	
 
 
 									<li><a href="#" onclick="return getInfo10()"<?php
 										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"h4 mb0 neoncoral block\">Project management</a></li>";
+											echo "class=\"h4 mb0 neoncoral block\">Project Leitung</a></li>";
 											} else {
 												if ($bgColor == "bg-orange") {
-											echo "class=\"h4 mb0 orange block\">Project management</a></li>";
+											echo "class=\"h4 mb0 orange block\">Project Leitung</a></li>";
 											} else { 
 												if ($bgColor == "bg-yellow") {
-											echo "class=\"h4 mb0 yellow block\">Project management</a></li>";
+											echo "class=\"h4 mb0 yellow block\">Project Leitung</a></li>";
 											} else { 
 												if ($bgColor == "bg-aquateal") {
-											echo "class=\"h4 mb0 aquateal block\">Project management</a></li>";
+											echo "class=\"h4 mb0 aquateal block\">Project Leitung</a></li>";
 											} else { 
 												if ($bgColor == "bg-green") {
-											echo "class=\"h4 mb0 green block\">Project management</a></li>";
+											echo "class=\"h4 mb0 green block\">Project Leitung</a></li>";
 											} else { 
 												if ($bgColor == "bg-dkblue") {
-											echo "class=\"h4 mb0 dkblue block\">Project management</a></li>";
+											echo "class=\"h4 mb0 dkblue block\">Project Leitung</a></li>";
 											} else { 
 												if ($bgColor == "bg-purp") {
-											echo "class=\"h4 mb0 purp block\">Project management</a></li>";
+											echo "class=\"h4 mb0 purp block\">Project Leitung</a></li>";
 											}}}}}}}
 										?>	
 								</ul>
 
-							<p class="h1 mb0">Researcher Assisstant</p>
-								<p class="mb0 px2">Sept 2012-Sept 2014</p>
-								<p class="px2">NCUR (2014)</p>
-
-								<a class="h3 mb0 block dk-grey" href="#" onclick="return hideList3()">Skills:</a>	
-								<ul class="list-reset px2" id="hiddenList3">
-									<li ><a href="#" onclick="return getInfo11()"<?php
-										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"h4 mb0 neoncoral block\">Eye-tracking</a></li>";
-											} else {
-												if ($bgColor == "bg-orange") {
-											echo "class=\"h4 mb0 orange block\">Eye-tracking</a></li>";
-											} else { 
-												if ($bgColor == "bg-yellow") {
-											echo "class=\"h4 mb0 yellow block\">Eye-tracking</a></li>";
-											} else { 
-												if ($bgColor == "bg-aquateal") {
-											echo "class=\"h4 mb0 aquateal block\">Eye-tracking</a></li>";
-											} else { 
-												if ($bgColor == "bg-green") {
-											echo "class=\"h4 mb0 green block\">Eye-tracking</a></li>";
-											} else { 
-												if ($bgColor == "bg-dkblue") {
-											echo "class=\"h4 mb0 dkblue block\">Eye-tracking</a></li>";
-											} else { 
-												if ($bgColor == "bg-purp") {
-											echo "class=\"h4 mb0 purp block\">Eye-tracking</a></li>";
-											}}}}}}}
-										?>
-									<li><a href="#" onclick="return getInfo12()"<?php
-										if ($bgColor == "bg-neoncoral") {
-											echo "class=\"h4 mb0 neoncoral block\">Graphical Analysis</a></li>";
-											} else {
-												if ($bgColor == "bg-orange") {
-											echo "class=\"h4 mb0 orange block\">Graphical Analysis</a></li>";
-											} else { 
-												if ($bgColor == "bg-yellow") {
-											echo "class=\"h4 mb0 yellow block\">Graphical Analysis</a></li>";
-											} else { 
-												if ($bgColor == "bg-aquateal") {
-											echo "class=\"h4 mb0 aquateal block\">Graphical Analysis</a></li>";
-											} else { 
-												if ($bgColor == "bg-green") {
-											echo "class=\"h4 mb0 green block\">Graphical Analysis</a></li>";
-											} else { 
-												if ($bgColor == "bg-dkblue") {
-											echo "class=\"h4 mb0 dkblue block\">Graphical Analysis</a></li>";
-											} else { 
-												if ($bgColor == "bg-purp") {
-											echo "class=\"h4 mb0 purp block\">Graphical Analysis</a></li>";
-											}}}}}}}
-										?>
-								</ul>
+							
 
 							
 						</div>
@@ -473,6 +421,104 @@
 
 					</div>
 				</section>
+
+
+				<section class="clearfix m1">
+	
+					<div class="sm-col-12 md-col-10 lg-col-8 mx-auto">
+
+						<div class="sm-col-12 md-col md-col-5 lg-col lg-col-5 px2 m1 bg-white">
+
+							<h2 class="h5">Ergibnisse</h2>
+
+							<h3 class="h1 mb0">Forschung Lehrling</h3>
+								<p class="mb0 px2">Sept 2012-Sept 2014</p>
+								<p class="px2">NCUR (2014)</p>
+
+								<a class="h3 mb0 block dk-grey" href="#" onclick="return hideList3()">Fähigkeiten:</a>	
+								<ul class="list-reset px2" id="hiddenList3">
+									<li ><a href="#" onclick="return getInfo11()"<?php
+										if ($bgColor == "bg-neoncoral") {
+											echo "class=\"h4 mb0 neoncoral block\">Augenverfolgende</a></li>";
+											} else {
+												if ($bgColor == "bg-orange") {
+											echo "class=\"h4 mb0 orange block\">Augenverfolgende</a></li>";
+											} else { 
+												if ($bgColor == "bg-yellow") {
+											echo "class=\"h4 mb0 yellow block\">Augenverfolgende</a></li>";
+											} else { 
+												if ($bgColor == "bg-aquateal") {
+											echo "class=\"h4 mb0 aquateal block\">Augenverfolgende</a></li>";
+											} else { 
+												if ($bgColor == "bg-green") {
+											echo "class=\"h4 mb0 green block\">Augenverfolgende</a></li>";
+											} else { 
+												if ($bgColor == "bg-dkblue") {
+											echo "class=\"h4 mb0 dkblue block\">Augenverfolgende</a></li>";
+											} else { 
+												if ($bgColor == "bg-purp") {
+											echo "class=\"h4 mb0 purp block\">Augenverfolgende</a></li>";
+											}}}}}}}
+										?>
+									<li><a href="#" onclick="return getInfo12()"<?php
+										if ($bgColor == "bg-neoncoral") {
+											echo "class=\"h4 mb0 neoncoral block\">Graphische Analyse</a></li>";
+											} else {
+												if ($bgColor == "bg-orange") {
+											echo "class=\"h4 mb0 orange block\">Graphische Analyse</a></li>";
+											} else { 
+												if ($bgColor == "bg-yellow") {
+											echo "class=\"h4 mb0 yellow block\">Graphische Analyse</a></li>";
+											} else { 
+												if ($bgColor == "bg-aquateal") {
+											echo "class=\"h4 mb0 aquateal block\">Graphische Analyse</a></li>";
+											} else { 
+												if ($bgColor == "bg-green") {
+											echo "class=\"h4 mb0 green block\">Graphische Analyse</a></li>";
+											} else { 
+												if ($bgColor == "bg-dkblue") {
+											echo "class=\"h4 mb0 dkblue block\">Graphische Analyse</a></li>";
+											} else { 
+												if ($bgColor == "bg-purp") {
+											echo "class=\"h4 mb0 purp block\">Graphische Analyse</a></li>";
+											}}}}}}}
+										?>
+								</ul>
+						</div>
+
+							<div class="sm-col-12 md-col md-col-6 lg-col lg-col-6">
+								<div id="hiddenDiv3" <?php
+								if ($bgColor == "bg-neoncoral") {
+									echo "class=\"clearfix m1 bg-neoncoral\">";
+									} else {
+										if ($bgColor == "bg-orange") {
+									echo "class=\"clearfix m1 bg-orange\">";
+									} else { 
+										if ($bgColor == "bg-yellow") {
+									echo "class=\"clearfix m1 bg-yellow\">";
+									} else { 
+										if ($bgColor == "bg-aquateal") {
+									echo "class=\"clearfix m1 bg-aquateal\">";
+									} else { 
+										if ($bgColor == "bg-green") {
+									echo "class=\"clearfix m1 bg-green\">";
+									} else { 
+										if ($bgColor == "bg-dkblue") {
+									echo "class=\"clearfix m1 bg-dkblue\">";
+									} else { 
+										if ($bgColor == "bg-purp") {
+									echo "class=\"clearfix m1 bg-purp\">";
+									}}}}}}}
+								?>
+									<div class="col-10 mx-auto py2">
+										<p class="white" id="extraContent3"></p>
+									</div>
+								</div>	
+						</div>
+
+					</div>
+				</section>
+
 
 <!-- ______ADDITIONAL SKILLS______ -->
 
@@ -580,7 +626,7 @@
 						</div>
 
 						<div class="sm-col-12 md-col md-col-6 lg-col lg-col-6">
-							<div id="hiddenDiv3" <?php
+							<div id="hiddenDiv4" <?php
 							if ($bgColor == "bg-neoncoral") {
 								echo "class=\"clearfix m1 bg-neoncoral\">";
 								} else {
@@ -604,7 +650,7 @@
 								}}}}}}}
 							?>
 								<div class="col-10 mx-auto py2">
-									<p class="white" id="extraContent3"></p>
+									<p class="white" id="extraContent4"></p>
 								</div>
 							</div>	
 						</div>

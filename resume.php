@@ -26,15 +26,15 @@
 <!-- _____EDUCATION______ -->
 					
 
-				<section class="clearfix m1 dk-grey">
+				<section class="clearfix dk-grey">
 	
-					<div class="sm-col-12 md-col-10 lg-col-8 mx-auto">
+					<div class="sm-col-12 md-col-12 lg-col-10 mx-auto">
 
 						<div class="sm-col-12 md-col md-col-5 lg-col lg-col-5 m1 px2 bg-white ">
 
 							<h2 class="h5">Education</h2>
 								
-							<p class="h1 mb0">University of Michigan</p>
+							<h3 class="h1 mb0">University of Michigan</h2>
 
 							<a href="#" onclick="return getInfo1(), removeList()"<?php
 							if ($bgColor == "bg-neoncoral") {
@@ -228,7 +228,7 @@
 
 						</div>
 
-						<div class="sm-col-12 md-col md-col-6 lg-col lg-col-6">
+						<div class="md-col md-col-6 lg-col lg-col-6">
 
 							<div id="hiddenDiv1" <?php
 							if ($bgColor == "bg-neoncoral") {
@@ -274,35 +274,35 @@
 
 <!-- _______EXPERIENCE______ -->
 
-				<section class="clearfix m1">
+				<section class="clearfix dk-grey">
 	
-					<div class="sm-col-12 md-col-10 lg-col-8 mx-auto">
+					<div class="sm-col-12 md-col-12 lg-col-10 mx-auto">
 
 						<div class="sm-col-12 md-col md-col-5 lg-col lg-col-5 px2 m1 bg-white">
 
 							<h2 class="h5">Experience</h2>
 								
-							<a href="http://www.changeofmind.io"<?php
+							<h3><a href="http://www.changeofmind.io"<?php
 								if ($bgColor == "bg-neoncoral") {
-									echo "class=\"h1 neoncoral \">Change Of Mind</a>";
+									echo "class=\"h1 neoncoral \">Change Of Mind</a></h3>";
 									} else {
 										if ($bgColor == "bg-orange") {
-									echo "class=\"h1 orange\">Change Of Mind</a>";
+									echo "class=\"h1 orange\">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-yellow") {
-									echo "class=\"h1 yellow \">Change Of Mind</a>";
+									echo "class=\"h1 yellow \">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-aquateal") {
-									echo "class=\"h1 aquateal \">Change Of Mind</a>";
+									echo "class=\"h1 aquateal \">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-green") {
-									echo "class=\"h1 green \">Change Of Mind</a>";
+									echo "class=\"h1 green \">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-dkblue") {
-									echo "class=\"h1 dkblue \">Change Of Mind</a>";
+									echo "class=\"h1 dkblue \">Change Of Mind</a></h3>";
 									} else { 
 										if ($bgColor == "bg-purp") {
-									echo "class=\"h1 purp \">Change Of Mind</a>";
+									echo "class=\"h1 purp \">Change Of Mind</a></h3>";
 									}}}}}}}
 								?>
 								<p class="h4 px2 mt0">Co-founder, Project Manager, Chief Storyteller</p>
@@ -383,7 +383,55 @@
 										?>	
 								</ul>
 
-							<p class="h1 mb0">Researcher Assisstant</p>
+							
+
+							
+						</div>
+
+						<div class="sm-col-12 md-col md-col-6 lg-col lg-col-6">
+							<div id="hiddenDiv2" <?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "class=\"clearfix m1 bg-neoncoral\">";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "class=\"clearfix m1 bg-orange\">";
+								} else { 
+									if ($bgColor == "bg-yellow") {
+								echo "class=\"clearfix m1 bg-yellow\">";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "class=\"clearfix m1 bg-aquateal\">";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "class=\"clearfix m1 bg-green\">";
+								} else { 
+									if ($bgColor == "bg-dkblue") {
+								echo "class=\"clearfix m1 bg-dkblue\">";
+								} else { 
+									if ($bgColor == "bg-purp") {
+								echo "class=\"clearfix m1 bg-purp\">";
+								}}}}}}}
+							?>
+								<div class="col-10 mx-auto py2">
+									<p class="white" id="extraContent2"></p>
+								</div>
+							</div>	
+						</div>
+
+
+					</div>
+				</section>
+
+
+				<section class="clearfix dk-grey">
+	
+					<div class="sm-col-12 md-col-12 lg-col-10 mx-auto">
+
+						<div class="sm-col-12 md-col md-col-5 lg-col lg-col-5 px2 m1 bg-white">
+
+							<h2 class="h5">Experience</h2>
+
+							<h3 class="h1 mb0">Researcher Assisstant</h3>
 								<p class="mb0 px2">Sept 2012-Sept 2014</p>
 								<p class="px2">NCUR (2014)</p>
 
@@ -436,49 +484,47 @@
 											}}}}}}}
 										?>
 								</ul>
-
-							
 						</div>
 
-						<div class="sm-col-12 md-col md-col-6 lg-col lg-col-6">
-							<div id="hiddenDiv2" <?php
-							if ($bgColor == "bg-neoncoral") {
-								echo "class=\"clearfix m1 bg-neoncoral\">";
-								} else {
-									if ($bgColor == "bg-orange") {
-								echo "class=\"clearfix m1 bg-orange\">";
-								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "class=\"clearfix m1 bg-yellow\">";
-								} else { 
-									if ($bgColor == "bg-aquateal") {
-								echo "class=\"clearfix m1 bg-aquateal\">";
-								} else { 
-									if ($bgColor == "bg-green") {
-								echo "class=\"clearfix m1 bg-green\">";
-								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "class=\"clearfix m1 bg-dkblue\">";
-								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "class=\"clearfix m1 bg-purp\">";
-								}}}}}}}
-							?>
-								<div class="col-10 mx-auto py2">
-									<p class="white" id="extraContent2"></p>
-								</div>
-							</div>	
+							<div class="sm-col-12 md-col md-col-6 lg-col lg-col-6">
+								<div id="hiddenDiv3" <?php
+								if ($bgColor == "bg-neoncoral") {
+									echo "class=\"clearfix m1 bg-neoncoral\">";
+									} else {
+										if ($bgColor == "bg-orange") {
+									echo "class=\"clearfix m1 bg-orange\">";
+									} else { 
+										if ($bgColor == "bg-yellow") {
+									echo "class=\"clearfix m1 bg-yellow\">";
+									} else { 
+										if ($bgColor == "bg-aquateal") {
+									echo "class=\"clearfix m1 bg-aquateal\">";
+									} else { 
+										if ($bgColor == "bg-green") {
+									echo "class=\"clearfix m1 bg-green\">";
+									} else { 
+										if ($bgColor == "bg-dkblue") {
+									echo "class=\"clearfix m1 bg-dkblue\">";
+									} else { 
+										if ($bgColor == "bg-purp") {
+									echo "class=\"clearfix m1 bg-purp\">";
+									}}}}}}}
+								?>
+									<div class="col-10 mx-auto py2">
+										<p class="white" id="extraContent3"></p>
+									</div>
+								</div>	
 						</div>
-
 
 					</div>
 				</section>
 
+
 <!-- ______ADDITIONAL SKILLS______ -->
 
-			<section class="clearfix ">
+			<section class="clearfix dk-grey">
 	
-					<div class="sm-col-12 md-col-10 lg-col-8 mx-auto">
+					<div class="sm-col-12 md-col-12 lg-col-10 mx-auto">
 
 						<div class="sm-col-12 md-col md-col-5 lg-col lg-col-5 px2 m1 bg-white">
 
@@ -580,7 +626,7 @@
 						</div>
 
 						<div class="sm-col-12 md-col md-col-6 lg-col lg-col-6">
-							<div id="hiddenDiv3" <?php
+							<div id="hiddenDiv4" <?php
 							if ($bgColor == "bg-neoncoral") {
 								echo "class=\"clearfix m1 bg-neoncoral\">";
 								} else {
@@ -604,7 +650,7 @@
 								}}}}}}}
 							?>
 								<div class="col-10 mx-auto py2">
-									<p class="white" id="extraContent3"></p>
+									<p class="white" id="extraContent4"></p>
 								</div>
 							</div>	
 						</div>

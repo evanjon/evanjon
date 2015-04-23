@@ -218,11 +218,12 @@ function getInfo10() {
 		} return false;
 
 	}
+// ______Research Apprentice_____	
 
 
 function getInfo11() {
-		var extraContent = document.getElementById("extraContent2");
-		var div = document.getElementById("hiddenDiv2");
+		var extraContent = document.getElementById("extraContent3");
+		var div = document.getElementById("hiddenDiv3");
 
 		if (extraContent.innerHTML=="First, I hacked an over-the-shelf web-cam and used open source eye-tracking software out of  Copenhagen, Denmark. With it came all the headaches of using early 21st century eye-tracking tech. Eventually, I graduated to using GazePoint. I also have experience with Arrington's ViewPoint.") {
 			extraContent.innerHTML="";
@@ -237,8 +238,8 @@ function getInfo11() {
 
 
 function getInfo12() {
-		var extraContent = document.getElementById("extraContent2");
-		var div = document.getElementById("hiddenDiv2");
+		var extraContent = document.getElementById("extraContent3");
+		var div = document.getElementById("hiddenDiv3");
 
 		if (extraContent.innerHTML=="Data was cleaned and massaged using R. Statistical analysis was performed. Then, using GGplot2, heat maps were used to represent the data.") {
 			extraContent.innerHTML="";
@@ -256,8 +257,8 @@ function getInfo12() {
 
 
 function getInfo13() {
-		var extraContent = document.getElementById("extraContent3");
-		var div = document.getElementById("hiddenDiv3");
+		var extraContent = document.getElementById("extraContent4");
+		var div = document.getElementById("hiddenDiv4");
 
 		if (extraContent.innerHTML=="My inspiration to learn German dawned on me one family when I was sitting in a park two years ago reflecting on how if my Oma & Opa hadn't immigrated to the States back in the 1950's, I never would've been born. From that moment, I decided to explore my family heritage and have since developed a conversational and professional proficiency with the German language.") {
 			extraContent.innerHTML="";
@@ -271,8 +272,8 @@ function getInfo13() {
 	}
 
 function getInfo14() {
-		var extraContent = document.getElementById("extraContent3");
-		var div = document.getElementById("hiddenDiv3");
+		var extraContent = document.getElementById("extraContent4");
+		var div = document.getElementById("hiddenDiv4");
 
 		if (extraContent.innerHTML=="I have been crafting wood in my spare time for the past six years. I have made an array of smaller objects: boxes, sunglass cases, serving trays, and shelves. But my expertise is in modern furniture design, having made a coffee table/bench and full-size bed. I am currently crafting a time-capsule chest.") {
 			extraContent.innerHTML="";
@@ -287,8 +288,8 @@ function getInfo14() {
 
 
 function getInfo15() {
-		var extraContent = document.getElementById("extraContent3");
-		var div = document.getElementById("hiddenDiv3");
+		var extraContent = document.getElementById("extraContent4");
+		var div = document.getElementById("hiddenDiv4");
 
 		if (extraContent.innerHTML=="I've always been partially ambidextrous—using my left hand for fine motor skills and my right hand for gross motor skills. But in order to strengthen my cross-hemispheral neuro-cognitive capabilities, I'm actively working on developing complete ambidexterity.") {
 			extraContent.innerHTML="";
@@ -303,8 +304,8 @@ function getInfo15() {
 
 
 function getInfo16() {
-		var extraContent = document.getElementById("extraContent3");
-		var div = document.getElementById("hiddenDiv3");
+		var extraContent = document.getElementById("extraContent4");
+		var div = document.getElementById("hiddenDiv4");
 
 		if (extraContent.innerHTML=="The state of Michigan's state stone is the Petoskey stone. Growing up near the rocky shores of Lake Huron, one of my oldest hobbies is spotting their distinct, shimmering patterns among thousands of others. When I go home, it's not surprising to find me out by the lake, a cup of coffee in the morning, switching, a Corona (with a lime) in the afternoon, all day looking for these rocks. Want one?") {
 			extraContent.innerHTML="";

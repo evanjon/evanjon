@@ -58,7 +58,7 @@
 							?>Leider habe ich keine gute Geschichte geschrieben, die auf Deutsch sind, aber wenn Sie Englisch wissen, bitte lesen Sie etwas.</h2>
 
 					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
-						<div class="bg-white m2 py4">
+						<a href="snowbirds.php"><div class="bg-white m2 py4">
 							<h3 class=
 							<?php
 							if ($bgColor == "bg-neoncoral") {
@@ -83,12 +83,12 @@
 								echo "\"purp \"";
 								}}}}}}}
 							?>>Snowbirds of Huron</h3>
-						</div>
+						</div></a>
 					</div>
 
 
 					<div class="md-col md-col-6 lg-col lg-col-4 flex">
-						<div class="bg-white m2 py4 ">
+						<a href="ekridaat.php"><div class="bg-white m2 py4 ">
 							<h3 class=
 							<?php
 							if ($bgColor == "bg-neoncoral") {
@@ -113,13 +113,13 @@
 								echo "\"purp \"";
 								}}}}}}}
 							?>>Ekridaat</h3>
-						</div>
+						</div></a>
 
 					</div>
 
 
 					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
-						<div class="bg-white m2 py4">
+						<a href="onespidercrack.php"><div class="bg-white m2 py4">
 							<h3 class=
 							<?php
 							if ($bgColor == "bg-neoncoral") {
@@ -144,12 +144,12 @@
 								echo "\"purp \"";
 								}}}}}}}
 							?>>Spidercrack on the Stern</h3>
-						</div>
+						</div><a href="onespidercrack.php">
 					</div>
 
 
 					<div class="md-col md-col-6 lg-col lg-col-4 flex">
-						<div class="bg-white m2 py4">
+						<a href="sylvette.php"><div class="bg-white m2 py4">
 							<h3 class=
 							<?php
 							if ($bgColor == "bg-neoncoral") {
@@ -174,7 +174,7 @@
 								echo "\"purp \"";
 								}}}}}}}
 							?>>Sylvette</h3>
-						</div>
+						</div></a>
 
 					</div>
 
