@@ -90,7 +90,7 @@ a:hover {
 
 
 #hide-until-click {
-	visibility: hidden;
+	display: none;
 }
 
 /*php specific decoration*/
@@ -116,19 +116,19 @@ a:hover {
 }
 
 #hiddenDiv1 {
-	visibility: hidden;
+	display: none;
 }
 
 
 
 #hiddenDiv2 {
-	visibility: hidden;
+	display: none;
 }
 
 #hiddenDiv3 {
-	visibility: hidden;
+	display: none;
 }
 
 #hiddenDiv4 {
-	visibility: hidden;
+	display: none;
 }

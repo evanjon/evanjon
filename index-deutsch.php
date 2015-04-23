@@ -2,7 +2,7 @@
 	<html lang="de">
 		<head>
 			<meta charset="UTF-8">
-			<title>EvanJonGennrich</title>
+			<title>EvanJonGennrich.de</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.2.2/basscss.min.css" rel="stylesheet">
 			<link type="text/css" rel="stylesheet" href="css/basscss.min.css">
@@ -31,189 +31,70 @@
 <!-- ______PORTFOLIO______ -->
 			<section class="clearfix bg-grey">
 
-				<div class="sm-col-12 md-col-10 lg-col-8 mx-auto center">
+				<div class="sm-col-12 md-col-10 lg-col-8 mx-auto">
 
-					<h2 class=<?php
-							if ($bgColor == "bg-neoncoral") {
-								echo "\"neoncoral center\">";
-								} else {
-									if ($bgColor == "bg-orange") {
-								echo "\"orange center px3\">";
-								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow center px3\">";
-								} else { 
-									if ($bgColor == "bg-aquateal") {
-								echo "\"aquateal center px3\">";
-								} else { 
-									if ($bgColor == "bg-green") {
-								echo "\"green center px3\">";
-								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue center px3\">";
-								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp center px3\">";
-								}}}}}}}
-							?>Leider habe ich keine gute Geschichte geschrieben, die auf Deutsch sind, aber wenn Sie Englisch wissen, bitte lesen Sie etwas.</h2>
+					<div class="m2 sm-col-12 md-col-8 dk-grey">
 
-					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
-						<a href="snowbirds.php"><div class="bg-white m2 py4">
-							<h3 class=
-							<?php
-							if ($bgColor == "bg-neoncoral") {
-								echo "\"neoncoral \"";
-								} else {
-									if ($bgColor == "bg-orange") {
-								echo "\"orange \"";
-								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow \"";
-								} else { 
-									if ($bgColor == "bg-aquateal") {
-								echo "\"aquateal \"";
-								} else { 
-									if ($bgColor == "bg-green") {
-								echo "\"green \"";
-								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue \"";
-								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp \"";
-								}}}}}}}
-							?>>Snowbirds of Huron</h3>
-						</div></a>
-					</div>
-
-
-					<div class="md-col md-col-6 lg-col lg-col-4 flex">
-						<a href="ekridaat.php"><div class="bg-white m2 py4 ">
-							<h3 class=
-							<?php
-							if ($bgColor == "bg-neoncoral") {
-								echo "\"neoncoral \"";
-								} else {
-									if ($bgColor == "bg-orange") {
-								echo "\"orange \"";
-								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow \"";
-								} else { 
-									if ($bgColor == "bg-aquateal") {
-								echo "\"aquateal \"";
-								} else { 
-									if ($bgColor == "bg-green") {
-								echo "\"green \"";
-								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue \"";
-								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp \"";
-								}}}}}}}
-							?>>Ekridaat</h3>
-						</div></a>
-
-					</div>
-
-
-					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
-						<a href="onespidercrack.php"><div class="bg-white m2 py4">
-							<h3 class=
-							<?php
-							if ($bgColor == "bg-neoncoral") {
-								echo "\"neoncoral \"";
-								} else {
-									if ($bgColor == "bg-orange") {
-								echo "\"orange \"";
-								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow \"";
-								} else { 
-									if ($bgColor == "bg-aquateal") {
-								echo "\"aquateal \"";
-								} else { 
-									if ($bgColor == "bg-green") {
-								echo "\"green \"";
-								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue \"";
-								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp \"";
-								}}}}}}}
-							?>>Spidercrack on the Stern</h3>
-						</div><a href="onespidercrack.php">
-					</div>
-
-
-					<div class="md-col md-col-6 lg-col lg-col-4 flex">
-						<a href="sylvette.php"><div class="bg-white m2 py4">
-							<h3 class=
-							<?php
-							if ($bgColor == "bg-neoncoral") {
-								echo "\"neoncoral \"";
-								} else {
-									if ($bgColor == "bg-orange") {
-								echo "\"orange \"";
-								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow \"";
-								} else { 
-									if ($bgColor == "bg-aquateal") {
-								echo "\"aquateal \"";
-								} else { 
-									if ($bgColor == "bg-green") {
-								echo "\"green \"";
-								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue \"";
-								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp \"";
-								}}}}}}}
-							?>>Sylvette</h3>
-						</div></a>
-
-					</div>
-
-
-
-
-				</div>
-
-
-			</section>
-
-	<!-- ______Contact________		 -->
-			<section class="clearfix bg-grey py4 center">
-					<h3 class="fff">Bitte schicken Sie mir einen.<a class=
-					<?php
+					<h2 <?php
 					if ($bgColor == "bg-neoncoral") {
-						echo "\"neoncoral \"";
+						echo "class=\"h1 neoncoral\"";
 						} else {
 							if ($bgColor == "bg-orange") {
-						echo "\"orange \"";
+						echo "class=\"h1 orange \"";
 						} else { 
 							if ($bgColor == "bg-yellow") {
-						echo "\"yellow \"";
+						echo "class=\"h1 yellow \"";
 						} else { 
 							if ($bgColor == "bg-aquateal") {
-						echo "\"aquateal \"";
+						echo "class=\"h1 aquateal \"";
 						} else { 
 							if ($bgColor == "bg-green") {
-						echo "\"green \"";
+						echo "class=\"h1 green \"";
 						} else { 
 							if ($bgColor == "bg-dkblue") {
-						echo "\"dkblue \"";
+						echo "class=\"h1 dkblue \"";
 					} else { 
 							if ($bgColor == "bg-purp") {
-						echo "\"purp \"";
+						echo "class=\"h1 purp \"";
 						}}}}}}}
-						?>href=\"mailto:ejgennrich@gmail.com\">Email</a></h2> 
+						?>>Millenials machen Welle.</h2>
+
+					<p class="h3">Wir sind arbeitsam, haben mit Technologie aufgewachsen, priorisieren wir Zukunftsfähigkeit, und glauben an Gleichheit.</p>
+
+
+	
+			
+	
+
+	<!-- ______Contact________		 -->
+		
+					<p class="h4">Bitte schicken Sie mir einen <a href="mailto:ejgennrich@gmail.com"
+					<?php
+					if ($bgColor == "bg-neoncoral") {
+						echo "class=\"neoncoral h4 \"";
+						} else {
+							if ($bgColor == "bg-orange") {
+						echo "class=\"orange h4\"";
+						} else { 
+							if ($bgColor == "bg-yellow") {
+						echo "class=\"yellow h4\"";
+						} else { 
+							if ($bgColor == "bg-aquateal") {
+						echo "class=\"aquateal h4\"";
+						} else { 
+							if ($bgColor == "bg-green") {
+						echo "class=\"green h4\"";
+						} else { 
+							if ($bgColor == "bg-dkblue") {
+						echo "class=\"dkblue h4\"";
+					} else { 
+							if ($bgColor == "bg-purp") {
+						echo "class=\"purp h4\"";
+						}}}}}}}
+						?>>Email</a></p> 
 
 								
+					</div>
 				</div>
 			</section>
 
@@ -223,3 +104,5 @@
 			
 		</body>
 	</html>
+
+	

@@ -12,19 +12,19 @@ $bgColor = $bgClass[$n];
 
 
 	if ($fName == "index.php") {
-		echo "<section class=\"right m2\">";
+		echo "<section class=\"right m2 h4\">";
 		echo "<a href=\"index-deutsch.php\" class=\"fff\">Deutsch</a></section>";
 		} else {
 			if ($fName == "resume.php") {
-				echo "<section class=\"right m2\">";
+				echo "<section class=\"right m2 h4\">";
 				echo "<a href=\"resume-deutsch.php\" class=\"fff\">Deutsch</a></section>";
 			} else {
 				if ($fName == "index-deutsch.php") {
-					echo "<section class=\"right m2\">";
+					echo "<section class=\"right m2 h4\">";
 					echo "<a href=\"index.php\" class=\"fff\">English</a></section>";
 				} else {
 					if ($fName == "resume-deutsch.php") {
-						echo "<section class=\"right m2\">";
+						echo "<section class=\"right m2 h4\">";
 						echo "<a href=\"resume.php\" class=\"fff\">English</a></section>";
 					}}}}
 
@@ -33,8 +33,8 @@ $bgColor = $bgClass[$n];
 echo "<header class=\"header $bgColor clearfix\">
 					<div class=\"sm-col-12 md-col-10 lg-col-8 mx-auto center\">
 						
-						<div class=\"half-width mx-auto py4\">
-						<h1 class=\"fff\">";
+						<div class=\"half-width mx-auto py3\">
+						<h1 class=\"fff h1\">";
 						
 						if ($fName == "index.php" && $time < "12"){
 						        echo "Good morning. I'm Evan Jon.</h1>";
@@ -59,7 +59,7 @@ echo "<header class=\"header $bgColor clearfix\">
 								    				echo "Guten Abend. Ich heiße Evan Jon.</h1>";
 								    			} else {
 								    				if ($fName=="portfolio.php") {
-								    					echo "EJon, a writer of fiction.</h1>";
+								    					echo "a writer of fiction.</h1>";
 								    				} else {
 								    					if ($fName == "ekridaat.php") {
 								    						echo "EKRIDAAT</h1>";
@@ -80,21 +80,21 @@ echo "<header class=\"header $bgColor clearfix\">
 					
 				if ($fName =="index.php" || $fName=="resume.php" || $fName=="portfolio.php" || $fName=="ekridaat.php" || $fName=="snowbirds.php" || $fName=="sylvette.php" || $fName=="onespidercrack.php") {
 					if ($fName == "index.php"){
-						echo "<li class=\"button inline\"><a href=\"index.php\" class=\"current fff\">Home</a></li>";
+						echo "<li class=\"button inline\"><a href=\"index.php\" class=\"current h4 fff\">Home</a></li>";
 						} else {
-							echo "<li class=\"button inline\"><a href=\"index.php\" class=\"fff\">Home</a></li>";
+							echo "<li class=\"button inline\"><a href=\"index.php\" class=\"fff h4\">Home</a></li>";
 						};
 
 					if ($fName == "portfolio.php" || $fName=="ekridaat.php" || $fName=="snowbirds.php" || $fName=="sylvette.php" || $fName=="onespidercrack.php") {
-						echo "<li class=\"button inline\"><a href=\"portfolio.php\" class=\"current fff\">Portfolio</a></li>";
+						echo "<li class=\"button inline\"><a href=\"portfolio.php\" class=\"current h4 fff\">Portfolio</a></li>";
 					} else {
-						echo "<li class=\"button inline\"><a href=\"portfolio.php\" class=\"fff\">Portfolio</a></li>";
+						echo "<li class=\"button inline\"><a href=\"portfolio.php\" class=\"fff h4\">Portfolio</a></li>";
 					};
 
 					if ($fName == "resume.php"){
-						echo "<li class=\"button inline\"><a href=\"resume.php\" class=\"current fff\">Resume</a></li>";
+						echo "<li class=\"button inline\"><a href=\"resume.php\" class=\"current fff h4\">Resume</a></li>";
 						} else {
-							echo "<li class=\"button inline\"><a href=\"resume.php\" class=\"fff\">Resume</a></li>";
+							echo "<li class=\"button inline\"><a href=\"resume.php\" class=\"fff h4\">Resume</a></li>";
 						}};
 
 			

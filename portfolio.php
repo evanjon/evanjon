@@ -5,7 +5,7 @@
 			<title>EvanJonGennrich</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.2.2/basscss.min.css" rel="stylesheet">
-			<link type="text/css" rel="stylesheet" href="css/basscss.min.css">
+			<link type="text/css" href="css/basscss.css" rel="stylesheet">
 			<link type="text/css" rel="stylesheet" href="css/style.css">
 
 			
@@ -31,7 +31,7 @@
 <!-- ______PORTFOLIO______ -->
 			<section class="clearfix bg-grey">
 
-				<div class="sm-col-12 md-col-10 lg-col-8 mx-auto center">
+				<div class="sm-col-12 md-col-10 lg-col-10 mx-auto center">
 
 					
 					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
@@ -120,7 +120,7 @@
 									if ($bgColor == "bg-purp") {
 								echo "\"purp \"";
 								}}}}}}}
-							?>>Spidercrack on the Stern</h3>
+							?>>One Spider Crack</h3>
 						</div><a href="onespidercrack.php">
 					</div>
 
