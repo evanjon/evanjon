@@ -29,12 +29,12 @@
 			
 			
 <!-- ______PORTFOLIO______ -->
-			<section class="clearfix bg-grey">
+			<section class="md-show clearfix bg-grey py4">
 
-				<div class="sm-col-12 md-col-10 lg-col-10 mx-auto center">
+				<div class="sm-col-12 md-col-10 lg-col-10 mx-auto center py4">
 
 					
-					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
+					<div class="md-col md-col-6 lg-col lg-col-4 flex">
 						<a href="snowbirds.php"><div class="bg-white m2 py4">
 							<h3 class=
 							<?php
@@ -44,8 +44,8 @@
 									if ($bgColor == "bg-orange") {
 								echo "\"orange \"";
 								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow \"";
+									if ($bgColor == "bg-blue") {
+								echo "\"myblue \"";
 								} else { 
 									if ($bgColor == "bg-aquateal") {
 								echo "\"aquateal \"";
@@ -53,11 +53,11 @@
 									if ($bgColor == "bg-green") {
 								echo "\"green \"";
 								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue \"";
+									if ($bgColor == "bg-light-blue") {
+								echo "\"light-blue \"";
 								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp \"";
+									if ($bgColor == "bg-light-green") {
+								echo "\"light-green \"";
 								}}}}}}}
 							?>>Snowbirds of Huron</h3>
 						</div></a>
@@ -74,8 +74,8 @@
 									if ($bgColor == "bg-orange") {
 								echo "\"orange \"";
 								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow \"";
+									if ($bgColor == "bg-blue") {
+								echo "\"myblue \"";
 								} else { 
 									if ($bgColor == "bg-aquateal") {
 								echo "\"aquateal \"";
@@ -83,11 +83,11 @@
 									if ($bgColor == "bg-green") {
 								echo "\"green \"";
 								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue \"";
+									if ($bgColor == "bg-light-blue") {
+								echo "\"light-blue \"";
 								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp \"";
+									if ($bgColor == "bg-light-green") {
+								echo "\"light-green \"";
 								}}}}}}}
 							?>>Ekridaat</h3>
 						</div></a>
@@ -105,8 +105,8 @@
 									if ($bgColor == "bg-orange") {
 								echo "\"orange \"";
 								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow \"";
+									if ($bgColor == "bg-blue") {
+								echo "\"myblue \"";
 								} else { 
 									if ($bgColor == "bg-aquateal") {
 								echo "\"aquateal \"";
@@ -114,14 +114,14 @@
 									if ($bgColor == "bg-green") {
 								echo "\"green \"";
 								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue \"";
+									if ($bgColor == "bg-light-blue") {
+								echo "\"light-blue \"";
 								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp \"";
+									if ($bgColor == "bg-light-green") {
+								echo "\"light-green \"";
 								}}}}}}}
 							?>>One Spider Crack</h3>
-						</div><a href="onespidercrack.php">
+						</div></a>
 					</div>
 
 
@@ -135,8 +135,8 @@
 									if ($bgColor == "bg-orange") {
 								echo "\"orange \"";
 								} else { 
-									if ($bgColor == "bg-yellow") {
-								echo "\"yellow \"";
+									if ($bgColor == "bg-blue") {
+								echo "\"myblue \"";
 								} else { 
 									if ($bgColor == "bg-aquateal") {
 								echo "\"aquateal \"";
@@ -144,11 +144,148 @@
 									if ($bgColor == "bg-green") {
 								echo "\"green \"";
 								} else { 
-									if ($bgColor == "bg-dkblue") {
-								echo "\"dkblue \"";
+									if ($bgColor == "bg-light-blue") {
+								echo "\"light-blue \"";
 								} else { 
-									if ($bgColor == "bg-purp") {
-								echo "\"purp \"";
+									if ($bgColor == "bg-light-green") {
+								echo "\"light-green \"";
+								}}}}}}}
+							?>>Sylvette</h3>
+						</div></a>
+
+					</div>
+
+
+
+
+				</div>
+
+
+			</section>
+
+
+			<!-- ____Small Screen_______ -->
+
+			<section class="md-hide clearfix bg-grey">
+
+				<div class="sm-col-12 md-col-10 lg-col-10 mx-auto center">
+
+					
+					<div class="md-col md-col-6 lg-col lg-col-4 flex">
+						<a href="snowbirds.php"><div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-blue") {
+								echo "\"myblue \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-light-blue") {
+								echo "\"light-blue \"";
+								} else { 
+									if ($bgColor == "bg-light-green") {
+								echo "\"light-green \"";
+								}}}}}}}
+							?>>Snowbirds of Huron</h3>
+						</div></a>
+					</div>
+
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex">
+						<a href="ekridaat.php"><div class="bg-white m2 py4 ">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-blue") {
+								echo "\"myblue \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-light-blue") {
+								echo "\"light-blue \"";
+								} else { 
+									if ($bgColor == "bg-light-green") {
+								echo "\"light-green \"";
+								}}}}}}}
+							?>>Ekridaat</h3>
+						</div></a>
+
+					</div>
+
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex ">
+						<a href="onespidercrack.php"><div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-blue") {
+								echo "\"myblue \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-light-blue") {
+								echo "\"light-blue \"";
+								} else { 
+									if ($bgColor == "bg-light-green") {
+								echo "\"light-green \"";
+								}}}}}}}
+							?>>One Spider Crack</h3>
+						</div></a>
+					</div>
+
+
+					<div class="md-col md-col-6 lg-col lg-col-4 flex">
+						<a href="sylvette.php"><div class="bg-white m2 py4">
+							<h3 class=
+							<?php
+							if ($bgColor == "bg-neoncoral") {
+								echo "\"neoncoral \"";
+								} else {
+									if ($bgColor == "bg-orange") {
+								echo "\"orange \"";
+								} else { 
+									if ($bgColor == "bg-blue") {
+								echo "\"myblue \"";
+								} else { 
+									if ($bgColor == "bg-aquateal") {
+								echo "\"aquateal \"";
+								} else { 
+									if ($bgColor == "bg-green") {
+								echo "\"green \"";
+								} else { 
+									if ($bgColor == "bg-light-blue") {
+								echo "\"light-blue \"";
+								} else { 
+									if ($bgColor == "bg-light-green") {
+								echo "\"light-green \"";
 								}}}}}}}
 							?>>Sylvette</h3>
 						</div></a>

@@ -6,34 +6,34 @@ $time = date("G");
 
 // random background color
 
-$bgClass = array("bg-neoncoral", "bg-green", "bg-aquateal", "bg-orange");
+$bgClass = array("bg-neoncoral", "bg-green", "bg-orange", "bg-blue", "bg-light-blue", "bg-light-green");
 $n = array_rand($bgClass);
 $bgColor = $bgClass[$n];
 
 
 	if ($fName == "index.php") {
 		echo "<section class=\"right m2 h4\">";
-		echo "<a href=\"index-deutsch.php\" class=\"fff\">Deutsch</a></section>";
+		echo "<h4><a href=\"index-deutsch.php\" class=\"fff\">Deutsch</a></h4></section>";
 		} else {
 			if ($fName == "resume.php") {
 				echo "<section class=\"right m2 h4\">";
-				echo "<a href=\"resume-deutsch.php\" class=\"fff\">Deutsch</a></section>";
+				echo "<h4><a href=\"resume-deutsch.php\" class=\"fff\">Deutsch</a></h4></section>";
 			} else {
 				if ($fName == "index-deutsch.php") {
 					echo "<section class=\"right m2 h4\">";
-					echo "<a href=\"index.php\" class=\"fff\">English</a></section>";
+					echo "<h4><a href=\"index.php\" class=\"fff\">English</a></h4></section>";
 				} else {
 					if ($fName == "resume-deutsch.php") {
 						echo "<section class=\"right m2 h4\">";
-						echo "<a href=\"resume.php\" class=\"fff\">English</a></section>";
+						echo "<h4><a href=\"resume.php\" class=\"fff\">English</a></h4></section>";
 					}}}}
 
 
 
-echo "<header class=\"header $bgColor clearfix\">
+echo "<header class=\"header $bgColor clearfix py4\">
 					<div class=\"sm-col-12 md-col-10 lg-col-8 mx-auto center\">
 						
-						<div class=\"half-width mx-auto py3\">
+						<div class=\"half-width mx-auto py4\">
 						<h1 class=\"fff h1\">";
 						
 						if ($fName == "index.php" && $time < "12"){

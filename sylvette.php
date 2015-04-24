@@ -42,11 +42,11 @@
 												if ($fName == "snowbirds.php" && $bgColor == "bg-orange") {
 											echo "class=\"h5 dialogue current orange\"";
 											} else { 
-												if ($fName == "snowbirds.php" && $bgColor == "bg-yellow") {
-											echo "class=\"h5 dialogue current yellow\"";
+												if ($fName == "snowbirds.php" && $bgColor == "bg-light-blue") {
+											echo "class=\"h5 dialogue current light-blue\"";
 											} else { 
-												if ($fName == "snowbirds.php" && $bgColor == "bg-aquateal") {
-											echo "class=\"h5 dialogue current aquateal\"";
+												if ($fName == "snowbirds.php" && $bgColor == "bg-blue") {
+											echo "class=\"h5 dialogue current myblue\"";
 											} else { 
 												if ($fName == "snowbirds.php" && $bgColor == "bg-green") {
 											echo "class=\"h5 dialogue current green\"";
@@ -54,8 +54,8 @@
 												if ($fName == "snowbirds.php" && $bgColor == "bg-dkblue") {
 											echo "class=\"h5 dialogue current dkblue\"";
 										} else { 
-												if ($fName == "snowbirds.php" && $bgColor == "bg-purp") {
-											echo "class=\"h5 dialogue current purp\"";
+												if ($fName == "snowbirds.php" && $bgColor == "bg-light-blue") {
+											echo "class=\"h5 dialogue current light-blue\"";
 											} else {
 												echo "class=\"h5 light-gray dialogue\"";
 										}}}}}}}
@@ -72,11 +72,11 @@
 												if ($fName == "ekridaat.php" && $bgColor == "bg-orange") {
 											echo "class=\"h5 dialogue current orange\"";
 											} else { 
-												if ($fName == "ekridaat.php" && $bgColor == "bg-yellow") {
-											echo "class=\"h5 dialogue current yellow\"";
+												if ($fName == "ekridaat.php" && $bgColor == "bg-light-blue") {
+											echo "class=\"h5 dialogue current light-blue\"";
 											} else { 
-												if ($fName == "ekridaat.php" && $bgColor == "bg-aquateal") {
-											echo "class=\"h5 dialogue current aquateal\"";
+												if ($fName == "ekridaat.php" && $bgColor == "bg-blue") {
+											echo "class=\"h5 dialogue current myblue\"";
 											} else { 
 												if ($fName == "ekridaat.php" && $bgColor == "bg-green") {
 											echo "class=\"h5 dialogue current green\"";
@@ -84,8 +84,8 @@
 												if ($fName == "ekridaat.php" && $bgColor == "bg-dkblue") {
 											echo "class=\"h5 dialogue current dkblue\"";
 										} else { 
-												if ($fName == "ekridaat.php" && $bgColor == "bg-purp") {
-											echo "class=\"h5 dialogue current purp\"";
+												if ($fName == "ekridaat.php" && $bgColor == "bg-light-blue") {
+											echo "class=\"h5 dialogue current light-blue\"";
 											} else {
 												echo "class=\"h5 light-gray dialogue\"";
 										}}}}}}}
@@ -100,11 +100,11 @@
 												if ($fName == "onespidercrack.php" && $bgColor == "bg-orange") {
 											echo "class=\"h5 dialogue current orange\"";
 											} else { 
-												if ($fName == "onespidercrack.php" && $bgColor == "bg-yellow") {
-											echo "class=\"h5 dialogue current yellow\"";
+												if ($fName == "onespidercrack.php" && $bgColor == "bg-light-blue") {
+											echo "class=\"h5 dialogue current light-blue\"";
 											} else { 
-												if ($fName == "onespidercrack.php" && $bgColor == "bg-aquateal") {
-											echo "class=\"h5 dialogue current aquateal\"";
+												if ($fName == "onespidercrack.php" && $bgColor == "bg-blue") {
+											echo "class=\"h5 dialogue current myblue\"";
 											} else { 
 												if ($fName == "onespidercrack.php" && $bgColor == "bg-green") {
 											echo "class=\"h5 dialogue current green\"";
@@ -112,8 +112,8 @@
 												if ($fName == "onespidercrack.php" && $bgColor == "bg-dkblue") {
 											echo "class=\"h5 dialogue current dkblue\"";
 										} else { 
-												if ($fName == "onespidercrack.php" && $bgColor == "bg-purp") {
-											echo "class=\"h5 dialogue current purp\"";
+												if ($fName == "onespidercrack.php" && $bgColor == "bg-light-blue") {
+											echo "class=\"h5 dialogue current light-blue\"";
 											} else {
 												echo "class=\"h5 light-gray dialogue\"";
 										}}}}}}}
@@ -128,11 +128,11 @@
 												if ($fName == "sylvette.php" && $bgColor == "bg-orange") {
 											echo "class=\"h5 dialogue current orange\"";
 											} else { 
-												if ($fName == "sylvette.php" && $bgColor == "bg-yellow") {
-											echo "class=\"h5 dialogue current yellow\"";
+												if ($fName == "sylvette.php" && $bgColor == "bg-light-blue") {
+											echo "class=\"h5 dialogue current light-blue\"";
 											} else { 
-												if ($fName == "sylvette.php" && $bgColor == "bg-aquateal") {
-											echo "class=\"h5 dialogue current aquateal\"";
+												if ($fName == "sylvette.php" && $bgColor == "bg-blue") {
+											echo "class=\"h5 dialogue current myblue\"";
 											} else { 
 												if ($fName == "sylvette.php" && $bgColor == "bg-green") {
 											echo "class=\"h5 dialogue current green\"";
@@ -140,8 +140,8 @@
 												if ($fName == "sylvette.php" && $bgColor == "bg-dkblue") {
 											echo "class=\"h5 dialogue current dkblue\"";
 										} else { 
-												if ($fName == "sylvette.php" && $bgColor == "bg-purp") {
-											echo "class=\"h5 dialogue current purp\"";
+												if ($fName == "sylvette.php" && $bgColor == "bg-light-blue") {
+											echo "class=\"h5 dialogue current light-blue\"";
 											} else {
 												echo "class=\"h5 light-gray dialogue\"";
 										}}}}}}}
@@ -175,7 +175,7 @@
 	
 						<p class="h3 px2 f4-m lh-copy mw6 mt2">The woman turns right, heading in the direction of the of the old fishermen's quarter.</p>
 
-						<p class="h3 px2 f4-m lh-copy mw6">Now lined with little bakeries, markets, and pubs, she seems to be walking without purpose, pausing here and there to peek into shop windows.</p>  
+						<p class="h3 px2 f4-m lh-copy mw6">Now lined with little bakeries, markets, and pubs, she seems to be walking without light-blueose, pausing here and there to peek into shop windows.</p>  
 						
 						<p class="h3 px2 f4-m lh-copy mw6">Parling sees her pause to light a cigarette.</p>
 
@@ -240,18 +240,18 @@
 						<!--This is a break in the flash-->
 							<p class="h3 px2 h2 center">· · ·</p>	
 
-							<p class="h3 px2 center"><a href="portfolio.php"<?php
+							<p class="h3 px2 center"><a href="portfolio.php" <?php
 								if ($bgColor == "bg-neoncoral") {
 									echo "class=\"pb2 neoncoral \">";
 									} else {
 										if ($bgColor == "bg-orange") {
 									echo "class=\"pb2 orange \">";
 									} else { 
-										if ($bgColor == "bg-yellow") {
-									echo "class=\"pb2 yellow \">";
+										if ($bgColor == "bg-light-blue") {
+									echo "class=\"pb2 light-blue \">";
 									} else { 
-										if ($bgColor == "bg-aquateal") {
-									echo "class=\"pb2 aquateal \">";
+										if ($bgColor == "bg-blue") {
+									echo "class=\"pb2 myblue \">";
 									} else { 
 										if ($bgColor == "bg-green") {
 									echo "class=\"pb2 green \">";
@@ -259,8 +259,8 @@
 										if ($bgColor == "bg-dkblue") {
 									echo "class=\"pb2 dkblue \">";
 								} else { 
-										if ($bgColor == "bg-purp") {
-									echo "class=\"pb2 purp \">";
+										if ($bgColor == "bg-light-blue") {
+									echo "class=\"pb2 light-blue \">";
 									}}}}}}}
 									?>Tap here to read something else.</a></p>
 

@@ -3,8 +3,8 @@
 }
 
 /*background color possibilities*/
-.bg-aquateal {
-	background-color: #3D9970;
+.bg-blue {
+	background-color: #0074d9;
 
 }
 
@@ -29,6 +29,14 @@
 	background-color: #ffffff;
 }
 
+.bg-light-blue {
+	background-color: #7fdbff;
+}
+
+.bg-light-green {
+	background-color: #01ff70;
+}
+
 
 /*font color possibilities*/
 .ddd {
@@ -40,12 +48,12 @@
 	color: #ffffff;
 }
 
-.aquateal {
-	color: #3D9970;
+.myblue {
+	color: #0074d9;
 }
 
-.yellow {
-	color: #FFDC00;
+.light-green {
+	color: #01ff70;
 }
 
 .neoncoral {
@@ -60,8 +68,8 @@
 	color: #FF851B;
 }
 
-.dkblue {
-	color: #001F3F;
+.light-blue {
+	color: #7fdbff;
 }
 
 
